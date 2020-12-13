@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+* {
+	--background-1: #3d486c;
+	font-family: Spartan;
+}
+
+body {
+	background: var(--background-1)
+}
+
+
+a:link {
+	text-decoration: none!important;
+}
+
+a {
+	color: white!important;
+}
+
+
+.main {
+	height: 100%;
+	background: var(--background-2)!important;
+}
+
+
+.header {
+	filter: brightness(110%);
+	margin-top: 10px;
+	padding: 1rem 1rem;
+	border: 1px solid #fff;
+	border-radius: 10px;	
+}
+
+.world-stats {
+	border-radius: 20px;
+}
+
+#world-stats-table {
+	width: 100%!important;
+	border-radius: 20px;
+	max-height: 70vh;
+	overflow-y: scroll;
+}
+
+tr, td {
+	padding: 10px;
+}
+
+.text-success {
+	color: #65DD9B!important;
+}
+body {
+	/*display: none;*/
+}
+
+.loader-img {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(255, 255, 255, 1);
+	z-index: 1;
+
+}
+
+.loader-img img {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);	
+}

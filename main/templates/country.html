@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TQ COVID-19 Tracker</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/media/style2.css">
+	<script>
+		var country_name = "{{country}}"
+	</script>
+</head>
+<body>
+	<div class="loader-img" id="loader">
+		<img src="/media/loader.svg">
+	</div>
+	<table id="info">
+		<tr>
+			<h1 id="country-name" class="country-name country"></h1>
+			<hr>
+		</tr>
+		<tr>
+			<td rowspan="3"><img src="" id="flag"></td>			
+			<td>
+				<ul id="description"></ul>
+			</td>
+		</tr>
+	</table>
+
+	<div class="total-cases">
+		<h1>Total Cases in <span class="country"></span>:</h1><div id="total-cases-count"></div>
+		<canvas id="chart-total-cases"></canvas>
+	</div>
+
+	<div class="total-cases">
+		<h1>New Cases</h1>
+		<canvas id="chart-todays-cases"></canvas>
+	</div>
+
+	<div class="total-cases">
+		<h1>Summary of last week:</h1>
+		<canvas id="chart-last-week"></canvas>
+	</div>
+	<div>
+		<h1>Total Confirmed Cases Summary</h1>
+		<canvas id="chart-total-history"></canvas>
+	</div>
+
+	<div>
+		<h1>New Cases History</h1>
+		<canvas id="chart-new-cases-history"></canvas>
+	</div>
+
+
+	<div>
+		<h1><span class="country"></span>'s COVID Cases History:</h1>
+		<table id="covid-history" class="table table-bordered table-striped table-hover table-dark rounded table-responsive-sm">
+			<tr>
+				<th>Date</th>
+				<th>Confirmed</th>
+				<th>Deceased</th>
+				<th>Active</th>
+				<th>Recovered</th>
+			</tr>
+		</table>
+	</div>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+	<script src="/media/script2.js"></script>
+
+</body>
+</html>

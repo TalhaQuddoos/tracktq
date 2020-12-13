@@ -1,0 +1,24 @@
+## Inspiration
+We all had bad times during the pandemic, however it also gave us an oppurtunity to learn new things and upskill ourselves. COVID-19 trackers were the focus of most people, but most of them did't had any visualizations. So, I decided to make a COVID-19 tracker, which will also include interactive visualizations.
+
+## What it does
+This app is basically a COVID-19 tracker, which tracks the confirmed and active cases, deceased and recovered people, but the plus point about TrackTQ is that it also offers interactive visualizations as well as also shows the complete history of the COVID cases from start. It also tells when was the first case reported in a particular country.
+
+## How I built it
+I built it using HTML for markup, CSS for styling, JavaScript for logic, Python and Django for backend processing, and Bootstrap for responsiveness. I used Chart.js for making visualizations and charts, such as pie chart, doughnut chart and line charts.
+I deployed it on Google Cloud and got a domain name from Freenom.
+
+
+## Challenges I ran into
+The first and foremost challenge for me was to learn about COVID trackers and what they actually are. The next challenge I faced was to learn Chart.js library. The third challenge was to make visualizations through Chart.js library. And there is one more challenge ahead: Make a video about this project!!!!
+
+## Accomplishments I am proud of
+I am proud of adding those visualizations to my app, so my app became more interactive for people. 
+
+## What I learned
+While I was making this app, I came to learn about a lot of things, including CSS position property (for adding the loader animation to my app), building pie charts, doughnut charts, line charts and bar charts using Chart.js, and a lot of other things like hosting the django app on GCP and connecting a domain to it. This was a great learning experience ever.
+
+## What's next for TrackTQ
+As this project is made under 48 hours, it needs lots of improvement. Its homepage design is WORST, so I would also try to make it better. Moreover, I would also work on its visualizations and build some other tools for it, like survival rate calculator, etc.
+
+

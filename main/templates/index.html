@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<title>TrackTQ</title>
+	<link rel="stylesheet" href="/media/style.css">
+</head>
+<body>
+	<div class="loader-img" id="loader">
+		<img src="/media/loader.svg">
+	</div>
+	<div class="container-fluid bg-dark main">
+		<div> </div>
+		<div class="header jumbotron bg-dark text-center text-white">
+			<h1>TQ COVID-19 Tracker</h1>
+			<h3>COVID Tracker by Talha Quddoos</h3>
+		</div>
+	</div>
+
+
+	<div class="row">
+		<div class="col-lg-3 text-center world-covid-stats" style="background: #4b5a81; padding: 10px;">
+			<h1 class="font-weight-bold text-white text-center">World Stats</h1>
+			<div class="row">
+				<div class="col-12 justify-content-center">
+					<h1 class="text-success d-block" id="total-confirmed"></h1>
+					<h5 class="text-white">Total Confirmed</h5>
+				</div>
+
+				<div class="col-12 justify-content-center">
+					<h1 class="text-danger" id="total-died"></h1>
+					<h5 class="text-white">Total Deceased</h5>
+				</div>
+
+				<div class="col-12 justify-content-center">
+					<h1 class="text-warning" id="total-active"></h1>
+					<h5 class="text-white">Total Active</h5>
+				</div>
+
+				<div class="col-12 justify-content-center">
+					<h1 class="text-info" id="total-recovered"></h1>
+					<h5 class="text-white">Total Recovered</h5>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="col-lg-9 mt-5">
+			<div class="world-stats world-covid-stats">
+				<h2 class="text-white">World</h2>
+
+				<table id="world-stats-table" class="table-striped table-responsive-sm table-bordered table-hover table-dark" style="">
+					<tr class="thead-dark font-weight-bold">
+						<td class="">Country</td>
+						<td class="text-success">Confirmed Cases</td>
+						<td class="text-warning">Active Cases</td>
+						<td class="text-danger">Deceased</td>
+						<td class="text-success">Recovered</td>
+					</tr>
+				</table>			
+			</div>	
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+	<script src="/media/script.js"></script>
+</body>
+</html>

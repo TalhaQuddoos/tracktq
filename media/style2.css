@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+	font-family: Spartan, sans-serif;
+}
+
+
+.country-name {
+	font-family: Bebas Neue;
+	font-weight: bold;
+	font-size: 5rem;
+	text-align: center;
+	margin-bottom: -5px;
+	color: rgba(0, 0, 0, 0.7);
+
+}
+#flag {
+}
+
+#description {
+	font-size: 1.3rem;
+}
+#info {
+	width: 90%;
+	margin-left: 5%;
+}
+
+
+#total-cases-count {
+	font-size: 2rem;
+	color: all;
+	text-align: center;
+}
+
+#covid-history {
+	width: 100%;
+
+}
+
+
+.loader-img {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(255, 255, 255, 1);
+	z-index: 1;
+
+}
+
+.loader-img img {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);	
+}
